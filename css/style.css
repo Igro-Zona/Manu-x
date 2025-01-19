@@ -129,6 +129,10 @@ body {
   background-color: #bb5516;
 }
 
+.blue-line {
+  width: 100%;
+}
+
 .header__nav {
   margin-top: 14px;
   margin-bottom: 20px;
@@ -163,7 +167,7 @@ body {
 /* INTRO STYLES START */
 
 .intro {
-  width: 1fr;
+  width: 100%;
   min-height: 628px;
   background-color: #f0f1f4;
 }
@@ -630,7 +634,12 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.results__card {
+  max-width: 420px;
+}
+
 .results__pic {
+  max-width: 100%;
   border-radius: 8px;
   margin-bottom: 22px;
 }
@@ -735,10 +744,14 @@ body {
   cursor: pointer;
 }
 
-.contact__image {
+.contact__img-container {
+  width: 720px;
   position: absolute;
   left: 660px;
   top: 0;
+}
+.contact__image {
+  max-width: 100%;
 }
 
 /* CONTACT STYLES END */
@@ -761,6 +774,7 @@ body {
 }
 
 .cases__card {
+  max-width: 420px;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0px 7px 20px 0px #0000001a;
@@ -769,6 +783,7 @@ body {
 }
 
 .cases__pic {
+  max-width: 100%;
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -798,12 +813,12 @@ body {
   position: absolute;
   bottom: 20px;
   left: 20px;
+  right: 20px;
   padding: 20px;
   border-radius: 13px;
   background-color: #003662;
   text-align: center;
   color: #ffffff;
-  width: 380px;
 }
 
 .card__result-title {
@@ -913,6 +928,7 @@ body {
 /* FOOTER STYLES START */
 
 .footer {
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 25px;
   background-color: #0a2138;
