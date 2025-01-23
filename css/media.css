@@ -620,7 +620,84 @@
   .footer__main {
     padding: 0;
   }
+
+  .objectives__item--develop {
+    background: #d35f18;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  .header__contact {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .footer__main {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__info {
+    justify-self: center;
+  }
+
+  .footer__links {
+    justify-content: center;
+  }
+
+  .footer__link:nth-last-child(1) {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__contact {
+    display: block;
+    text-align: center;
+  }
+
+  .header__nav-items {
+    justify-content: space-between;
+  }
+
+  .header__nav-item {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+
+  .intro__body {
+    padding: 0;
+  }
+
+  .intro__title {
+    font-size: 20px;
+  }
+
+  .tasks__title {
+    font-size: 20px;
+  }
+
+  .project__title {
+    font-size: 20px;
+  }
+
+  .objectives__title {
+    font-size: 22px;
+  }
+
+  .structure__title {
+    font-size: 22px;
+  }
+
+  .results__title {
+    font-size: 22px;
+  }
+
+  .contact__title {
+    font-size: 20px;
+  }
+
+  .footer__form {
+    max-width: 100%;
+  }
 }
